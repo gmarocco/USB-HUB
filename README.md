@@ -3,7 +3,7 @@
 A compact USB 2.0 Hi-Speed expansion board. A single USB Type-C upstream connection provides **four USB Type-A ports**, a **microSD card reader** and a **USB-to-UART bridge** with a 10-pin header. Everything fits on a 90 × 55 mm four-layer PCB designed in KiCad 10.
 
 <p align="center">
-  <img src="images/board_photo.webp" alt="Assembled USB HUB SD UART V2 board" width="720">
+  <img src="docs/board_photo.webp" alt="Assembled USB HUB SD UART V2 board" width="720">
 </p>
 
 ## Features
@@ -24,7 +24,7 @@ A compact USB 2.0 Hi-Speed expansion board. A single USB Type-C upstream connect
 ## Block diagram
 
 <p align="center">
-  <img src="images/block_diagram.png" alt="Block diagram" width="900">
+  <img src="docs/block_diagram.png" alt="Block diagram" width="900">
 </p>
 
 USB topology:
@@ -47,8 +47,10 @@ flowchart LR
 
 The full schematics are available as PDF files:
 
-- [Main circuit schematics (default variant, with load switches)](gerber-%20documentation/USB%20HUB%20SD%20UART%20V2_%20%20main%20circuit%20schematics.pdf)
-- [Fuse variant circuit schematics](gerber-%20documentation/USB%20HUB%20SD%20UART%20V2_%20fuse%20variant%20circuit%20schematics.pdf)
+- [Main circuit schematics (default variant, with load switches)](production/USB%20HUB%20SD%20UART%20V2_%20%20main%20circuit%20schematics.pdf)
+- [Fuse variant circuit schematics](production/USB%20HUB%20SD%20UART%20V2_%20fuse%20variant%20circuit%20schematics.pdf)
+
+The KiCad schematic sheets are in the [`hardware/`](hardware/) folder:
 
 | Sheet | File | Content |
 |---|---|---|
@@ -175,12 +177,12 @@ The PCB supports two ways of powering the USB-A ports. They are defined as KiCad
 | J4 | 2.54 mm 1×10 header | UART + supply header |
 | Y1, Y2 | Epson TSX-3225 24.0000 MHz | Hub reference crystals |
 
-The complete bill of materials is in [`BOM_USB_HUB_SD v2.xlsx`](gerber-%20documentation/BOM_USB_HUB_SD%20v2.xlsx).
+The complete bill of materials is in [`BOM_USB_HUB_SD v2.xlsx`](production/BOM_USB_HUB_SD%20v2.xlsx). An interactive HTML BOM, handy during assembly, is in [`USB_HUB v2 ibom.html`](production/USB_HUB%20v2%20ibom.html): download it and open it in a web browser.
 
 ## PCB
 
 <p align="center">
-  <img src="images/board_3d.png" alt="3D render of the PCB" width="820">
+  <img src="docs/board_3d.png" alt="3D render of the PCB" width="820">
 </p>
 
 | Parameter | Value |
@@ -192,21 +194,36 @@ The complete bill of materials is in [`BOM_USB_HUB_SD v2.xlsx`](gerber-%20docume
 | Supply | Bus-powered, 5 V from the upstream VBUS |
 | EDA tool | KiCad 10.0 |
 
-The PCB layer plots are in [`USB HUB SD v2 layer plot.pdf`](gerber-%20documentation/USB%20HUB%20SD%20v2%20layer%20plot.pdf).
+The PCB layer plots are in [`USB HUB SD v2 layer plot.pdf`](production/USB%20HUB%20SD%20v2%20layer%20plot.pdf).
 
 ## Repository contents
 
+```text
+USB-HUB/
+├── README.md
+├── docs/           Pictures used in this README
+├── hardware/       KiCad 10 project: schematics, PCB, 3D models
+│   └── lib/        Project symbol and footprint library
+└── production/     Gerbers, BOM and PDF documentation
+```
+
 | Path | Description |
 |---|---|
-| `USB HUB SD v2.kicad_pro` | KiCad 10 project file |
-| `USB HUB SD v2.kicad_sch` and sub-sheets | Hierarchical schematic (see the sheet table above) |
-| `USB HUB SD v2.kicad_pcb` | PCB layout |
-| `HUB USB v2.step`, `hub_USB.glb` | 3D models of the assembled board |
-| `fabrication-toolkit-options.json` | Settings for the KiCad Fabrication Toolkit plugin |
-| `gerber- documentation/gerber USB_HUB_SD_UART_V2.zip` | Gerber manufacturing files |
-| `gerber- documentation/BOM_USB_HUB_SD v2.xlsx` | Bill of materials |
-| `gerber- documentation/*.pdf` | Schematics (both variants) and PCB layer plots |
-| `images/` | Pictures used in this README |
+| `hardware/USB HUB SD v2.kicad_pro` | KiCad 10 project file |
+| `hardware/USB HUB SD v2.kicad_sch` and sub-sheets | Hierarchical schematic (see the sheet table above) |
+| `hardware/USB HUB SD v2.kicad_pcb` | PCB layout |
+| `hardware/HUB USB v2.step`, `hardware/hub_USB.glb` | 3D models of the assembled board |
+| `hardware/fabrication-toolkit-options.json` | Settings for the KiCad Fabrication Toolkit plugin |
+| `hardware/sym-lib-table`, `hardware/fp-lib-table` | Project library tables |
+| `hardware/lib/USB-HUB.kicad_sym` | Project symbol library |
+| `hardware/lib/USB-HUB.pretty/` | Project footprint library |
+| `production/gerber USB_HUB_SD_UART_V2.zip` | Gerber manufacturing files |
+| `production/BOM_USB_HUB_SD v2.xlsx` | Bill of materials |
+| `production/USB_HUB v2 ibom.html` | Interactive HTML BOM |
+| `production/*.pdf` | Schematics (both variants) and PCB layer plots |
+| `docs/` | Pictures used in this README |
+
+The Fabrication Toolkit plugin writes its output to `hardware/production/`, which git ignores. The released manufacturing files are the ones in `production/` at the repository root.
 
 ## Usage
 
@@ -219,4 +236,5 @@ The PCB layer plots are in [`USB HUB SD v2 layer plot.pdf`](gerber-%20documentat
 
 ## Author
 
-Designed by **Gabriele Marocco**, [PCB Semplice](https://pcbsemplice.com)
+Designed by **Gabriele Marocco**, [PCB Semplice](https://pcbsemplice.com).
+
