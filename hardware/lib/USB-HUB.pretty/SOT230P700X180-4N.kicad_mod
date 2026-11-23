@@ -1,0 +1,309 @@
+(footprint "SOT230P700X180-4N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-223 CASE 318H")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.7 -4.55 90)
+		(layer "F.SilkS")
+		(uuid "172afd34-7ea6-4bc1-8caa-03ad1c7c7c8d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "NCP1117ST33T3G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc8f1fe3-4196-49b1-b080-ba2385825c39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d0d517d-06c2-4e02-920d-a9a276859a0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "104feaae-4546-4e5d-bf51-66a9ce173239")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4891f252-96f9-42ec-bfca-e8de70a145d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "863-NCP1117ST33T3G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fedce49-1d21-4b6e-96d3-23ebd35e008d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117ST33T3G?qs=Gev%252BmEvV0iZb%2FE8ahUDx3w%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87e7ef2a-85d4-4631-ae05-d38ebc126699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "onsemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3aa99f6-ae53-41b8-a2cb-8c331a149de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "NCP1117ST33T3G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18118a83-d6e7-4063-a2d5-a913ae172b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Alimentazione e schema a blocchi/")
+	(sheetfile "alimentazione_e_schema_a_blocchi.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.025 -3.125)
+		(end -2.775 -3.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d1342d8-fd7b-4c60-a6ee-9c92e9b75b9e")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbd271e3-000d-45e6-870f-0cd663507e6c")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f70a3f1-d46e-4dcf-a2cd-99c81c359841")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cde2feb3-475d-4113-b892-5c5752e1f86a")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbd27e21-5585-49e3-905c-f9d2eca9efbf")
+	)
+	(fp_line
+		(start -4.275 -3.6)
+		(end 4.275 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf2962ab-1605-41e2-80dc-012515b37ea2")
+	)
+	(fp_line
+		(start -4.275 3.6)
+		(end -4.275 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a41a2bfc-3e55-4f7a-b737-e3a914080c9d")
+	)
+	(fp_line
+		(start 4.275 -3.6)
+		(end 4.275 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0576dad-1b8a-4ddd-9254-2d60d8656611")
+	)
+	(fp_line
+		(start 4.275 3.6)
+		(end -4.275 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd9ea270-c052-4fbe-aa56-f1cb4a652120")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96de2f8f-afc9-4ee8-a63d-7f765e91e9a7")
+	)
+	(fp_line
+		(start -1.75 -0.95)
+		(end 0.55 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f48af40-6d0e-4499-90ce-9eff127bb906")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed9f0e43-a7e4-4e6c-bc8d-c13080836089")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c96f5c6-40d5-4415-9ec1-8bd595158f0e")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c5f252b-b0a5-4b4f-bfef-2eb95002c3dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6cd9d32a-83c9-45c6-9500-8e8074d79fdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.4 -2.3 90)
+		(size 0.95 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7698456d-897a-404a-b19c-1c91da688553")
+	)
+	(pad "2" smd rect
+		(at -3.4 0 90)
+		(size 0.95 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49ac2392-0cc9-496e-98b2-358ac8e3869f")
+	)
+	(pad "3" smd rect
+		(at -3.4 2.3 90)
+		(size 0.95 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2010fd18-1ed3-4d80-8cd6-7824dc4d6418")
+	)
+	(pad "4" smd rect
+		(at 3.4 0)
+		(size 1.25 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ff8d065-372a-4fd1-a408-d39b9834c28b")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Admin\\Documents\\KiCad\\library loader 10\\SamacSys_Parts.3dshapes\\NCP1117ST33T3G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

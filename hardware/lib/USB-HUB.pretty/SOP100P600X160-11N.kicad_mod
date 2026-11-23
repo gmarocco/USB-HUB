@@ -1,0 +1,433 @@
+(footprint "SOP100P600X160-11N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.9 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "5b0776df-3c6e-48f9-bebd-7c5c952b6cec")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "CH340K"
+		(at 9.43 3.615 0)
+		(layer "F.Fab")
+		(uuid "b87ae151-d63a-4e54-8278-3637e40a9800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10995d03-5f16-4479-b10f-6b6f2a00433b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "USB to Serial Port Chip"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18239a82-4f45-4209-8f36-207528967908")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "WCH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccd0a082-776a-48a4-bc26-758c7012603c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18dfb1cf-f97b-43a2-8264-65fab060a34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Package"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80cc6021-a3d8-4f7b-853a-218b12c4dce0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b129fe7-b3de-4ed8-ba19-0b9c8081d270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/CH340K/WCH/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8743e2-e22e-4376-8a0b-a2734d84fd14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC-7351B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "694a4ec1-7349-48a8-8e46-a4c5e4b0ed12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "3B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7601a85-a15e-4ca5-8cf9-36e2b3b61c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/CH340K/WCH/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c760442-5173-4ba0-a06f-6161b36c275b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "CH340K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f7694ca-0d5d-466c-9b9d-18e8b37bb172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ba79208-9993-414b-b9b3-317ab83fe254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "WCH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "565f1140-8617-458c-bd82-61e351fb1637")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CH340K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ddb83b6-ee99-424e-bb18-2564737b8caf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/CH349G/")
+	(sheetfile "ch349g.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.78 -2.5)
+		(end 1.78 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40a58ab1-33ba-43d0-b5e5-6b8698f2aa1c")
+	)
+	(fp_line
+		(start 1.78 2.5)
+		(end -1.78 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba27adcc-f2e0-4a04-bfe0-16cf1ff73b39")
+	)
+	(fp_circle
+		(center -4 -2)
+		(end -3.9 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1a11a66d-b17c-4456-860e-439134fa9dce")
+	)
+	(fp_poly
+		(pts
+			(xy -0.664 -1.0435) (xy 0.664 -1.0435) (xy 0.664 1.0435) (xy -0.664 1.0435)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a3ca153d-4229-4005-b2e5-f6734a25bf6e")
+	)
+	(fp_line
+		(start -3.655 -2.75)
+		(end 3.655 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1405fec7-e9d3-4191-afbb-309947775a94")
+	)
+	(fp_line
+		(start -3.655 2.75)
+		(end -3.655 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de2ca044-7d84-49bb-9f9f-35e45ac2bd89")
+	)
+	(fp_line
+		(start 3.655 -2.75)
+		(end 3.655 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd542aba-4576-4d8c-8fdd-7ef3ca3f5c6d")
+	)
+	(fp_line
+		(start 3.655 2.75)
+		(end -3.655 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eecda54-8f99-49a3-917b-37cd7a8979d6")
+	)
+	(fp_line
+		(start -1.95 -2.5)
+		(end 1.95 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f982f94-a8b5-4e66-b886-5c4246a118c9")
+	)
+	(fp_line
+		(start -1.95 2.5)
+		(end -1.95 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "956cb499-8247-45ba-9c3d-5eae36fc48c3")
+	)
+	(fp_line
+		(start 1.95 -2.5)
+		(end 1.95 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87951c67-09bd-4dc7-a07a-c5ef54dc132f")
+	)
+	(fp_line
+		(start 1.95 2.5)
+		(end -1.95 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb548ae3-0da0-4b44-81fa-6a96bb7f273b")
+	)
+	(fp_circle
+		(center -4 -2)
+		(end -3.9 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ca11afd4-9533-4ef5-b56a-f94fe3289e60")
+	)
+	(pad "0" smd rect
+		(at 0 0)
+		(size 2.1 3.3)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f2dfc01d-89a0-4fa0-b7f0-192b2599d2a4")
+	)
+	(pad "1" smd rect
+		(at -2.75 -2)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1fafd52b-b3e5-4bce-9a0c-fc53538cb6e6")
+	)
+	(pad "2" smd rect
+		(at -2.75 -1)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "18c70263-2563-4936-9a89-a4baeaf8d614")
+	)
+	(pad "3" smd rect
+		(at -2.75 0)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a089dfa9-4564-4a80-9fd6-483c6ee911fe")
+	)
+	(pad "4" smd rect
+		(at -2.75 1)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bf88c5c2-8412-465b-a86f-b7c340f1ed00")
+	)
+	(pad "5" smd rect
+		(at -2.75 2)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0e848911-5d36-404a-b5c7-74c1254bf4ed")
+	)
+	(pad "6" smd rect
+		(at 2.75 2)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d14b315e-3bb0-4d72-ac6c-9bbb3eb86fe8")
+	)
+	(pad "7" smd rect
+		(at 2.75 1)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1755f84e-c6ab-45a3-8893-5b12ead502e5")
+	)
+	(pad "8" smd rect
+		(at 2.75 0)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "08381d24-ec63-487f-8843-02b47fd3f7f2")
+	)
+	(pad "9" smd rect
+		(at 2.75 -1)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6b29b302-4bb0-41ce-b9fe-a8b2cb442fc5")
+	)
+	(pad "10" smd rect
+		(at 2.75 -2)
+		(size 1.31 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "91a7d272-6cf9-4828-8b70-74a118a4c3e4")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Admin/Documents/USB hub- mass storage_business card/progetto KiCad/librerie/CH340K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

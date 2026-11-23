@@ -1,0 +1,212 @@
+(footprint "FUSC3216X100N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1206L025")
+	(tags "Resettable Fuse")
+	(property "Reference" "REF**"
+		(at 3.21 -0.1 90)
+		(layer "F.SilkS")
+		(uuid "b4178e4b-ca2b-46a9-a56e-fde9cef586e7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "1206L150THWR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3e9cbafe-071d-4e6b-a340-c09f0cff03f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c27003c4-4015-4f8e-9aa1-cea592d97dbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Littelfuse Surface Mount Fuse, 8V dc"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c14b2ab-c8b9-405f-a3a9-47a8fdb08b7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-1206L150THWR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0048f365-d961-4dbf-bd8b-a0455c539fb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L150THWR?qs=CPcc0c%2Fon9FQvOO80PJKiA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "240769f1-b8f0-4582-b04f-a62f18b5fdbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/USB HUB SD v2/")
+	(sheetfile "USB HUB SD v2.kicad_sch")
+	(attr smd dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.725)
+		(end 0 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62820611-82e6-4f50-9a91-1a3dd9cdcb8d")
+	)
+	(fp_line
+		(start -2.305 -1.16)
+		(end 2.305 -1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "047bdd9f-e9cf-4de6-9f92-c7f39f2768a3")
+	)
+	(fp_line
+		(start -2.305 1.16)
+		(end -2.305 -1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbc088d5-956f-4b10-a008-f6b65493f797")
+	)
+	(fp_line
+		(start 2.305 -1.16)
+		(end 2.305 1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33f14c0f-9981-40f8-ac71-45004ebf336d")
+	)
+	(fp_line
+		(start 2.305 1.16)
+		(end -2.305 1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "363c975e-087d-4eef-a316-3b41d65068a1")
+	)
+	(fp_line
+		(start -1.6 -0.825)
+		(end 1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c98d9804-1b8d-4f02-b70e-8331a5302009")
+	)
+	(fp_line
+		(start -1.6 0.825)
+		(end -1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd3dca95-be20-44e3-8e92-47eb94af98fb")
+	)
+	(fp_line
+		(start 1.6 -0.825)
+		(end 1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d9c3748-c774-4e01-b3b0-a7aab6fe311e")
+	)
+	(fp_line
+		(start 1.6 0.825)
+		(end -1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "055298e1-032e-4b59-816a-934dbf8dae27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2d3c4816-a466-4744-a6bf-91d3b0bd07f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.16 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a9f5c85-9924-4367-bee2-ef899c082ee7")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.16 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2627ef8a-0401-4fa9-82e5-9ccae0a66c28")
+	)
+	(variant
+		(name "fusibili porte USB")
+		(dnp no)
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Admin\\Documents\\KiCad\\library loader 10\\SamacSys_Parts.3dshapes\\1206L150THWR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

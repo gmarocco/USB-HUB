@@ -1,0 +1,297 @@
+(footprint "DIOM5436X244N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMBJ5.0A-E3/52-1")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "REF**"
+		(at -3.0875 -2.7 180)
+		(layer "F.SilkS")
+		(uuid "83272c42-6331-47b1-83ca-43d27ad5d96e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "SMBJ5.0A-E3_52"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1e288152-dfb2-4ae8-af7f-48d02fa7c6be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21644725-5e5a-4a36-8af7-4587bf725314")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Vishay SMBJ5.0A-E3/52, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1ae4f50-4487-4321-a5e8-d3a014eedbdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "2.44"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c301998-ea43-4b69-8fdd-26d5a1c0be69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "625-SMBJ5.0A-E3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3739fae0-25be-4d63-811c-c2fa45d6f303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ5.0A-E3-52?qs=%252BKsK5HlK7GF581843ilhDw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e681dc36-e95a-4416-95f9-bc7f9d5e0980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2c5f3d6-1bb4-46e2-bc1b-c7442e8b7bf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SMBJ5.0A-E3_52"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "110c3323-7696-4b4d-bd46-85e2affa7ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/USB HUB SD v2/")
+	(sheetfile "USB HUB SD v2.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.5 2)
+		(end -4.5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76b0e180-5185-448b-8038-8f180fd8768c")
+	)
+	(fp_line
+		(start -4.5 2)
+		(end 3.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dddad6e9-991b-4dc0-8acf-c73774e24e23")
+	)
+	(fp_line
+		(start -4 2)
+		(end -4 -1.81)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2909e055-9aec-4b75-91a6-a39acba4e60e")
+	)
+	(fp_line
+		(start 3.5 -2)
+		(end -4.5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9c38b54-c95a-4949-aa4c-6675c69bb8e6")
+	)
+	(fp_line
+		(start 3.5 2)
+		(end 3.5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3da44adb-ff8b-4c8a-b815-2d2cfe36533b")
+	)
+	(fp_line
+		(start -4.5 -2.22)
+		(end 4 -2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f582cac3-500d-4e31-84d6-cd3f0fc18482")
+	)
+	(fp_line
+		(start -4.5 2.22)
+		(end -4.5 -2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9fb64939-c429-4e82-9cfc-01b588967273")
+	)
+	(fp_line
+		(start 4 -2.22)
+		(end 4 2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd8a7ea6-2210-4e8a-93de-bef5dbcb7d73")
+	)
+	(fp_line
+		(start 4 2.22)
+		(end -4.5 2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc27f084-12bf-4173-9fa9-2d69b5d05afd")
+	)
+	(fp_line
+		(start -2.7 -1.81)
+		(end 2.7 -1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6627ef28-17d0-4294-99f4-9aed80ed9397")
+	)
+	(fp_line
+		(start -2.7 -0.735)
+		(end -1.625 -1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fb9ac6b-837c-4f34-9fea-caa4f105d5d3")
+	)
+	(fp_line
+		(start -2.7 1.81)
+		(end -2.7 -1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36f2d558-7cfe-4ddf-adf1-fc822a0099f9")
+	)
+	(fp_line
+		(start 2.7 -1.81)
+		(end 2.7 1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e5d8062-7930-47a4-8b11-02cfbef5e191")
+	)
+	(fp_line
+		(start 2.7 1.81)
+		(end -2.7 1.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5704d349-4f24-4fdf-b980-3cbf5dab6038")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "d90dcc18-cec1-4769-9c7f-4846a92ec628")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0 90)
+		(size 2.15 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c31c6cd-cbee-47e3-a611-83e261e799de")
+	)
+	(pad "2" smd rect
+		(at 2.2 0 90)
+		(size 2.15 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "640d2f68-d3f1-4958-aca7-bd6c415b0bfd")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Admin\\Documents\\KiCad\\library loader 10\\SamacSys_Parts.3dshapes\\SMBJ5.0A-E3_52.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

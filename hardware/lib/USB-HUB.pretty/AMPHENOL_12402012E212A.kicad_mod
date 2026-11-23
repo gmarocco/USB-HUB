@@ -1,0 +1,499 @@
+(footprint "AMPHENOL_12402012E212A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.25 0.35 180)
+		(layer "F.SilkS")
+		(uuid "c8917226-a8fa-46f1-9831-ca471502a5be")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "12402012E212A"
+		(at 9.175 -5.215 180)
+		(layer "F.Fab")
+		(uuid "1a17ff14-8e4c-422d-a48c-27485fbbefbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29379020-d30d-4b02-8a1e-1796e11b782e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "USB2.0, Type C, Top mount, CH 1.68mm, Dual Row SMT"
+		(at 0 1.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3582d49-c7ab-40ff-8765-4dff9a5dda4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "Amphenol FCI"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46617585-9f5a-47b4-ae82-de3b1387456a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b32a71f3-e0be-47c1-922d-5a433eaff037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14200618-626c-43c7-9072-21f4b03a35ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17b597b1-e2a5-4878-9f4f-5fc469c176ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/12402012E212A/Amphenol/view-part/?ref=eda"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e54e41a8-c4a0-4213-b257-e0d958aff5cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c647a0e2-8322-4322-aae3-c15c50dfbde6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "4"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87eaf46b-2ce5-4f6b-97a0-a17d547d9f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/12402012E212A/Amphenol/view-part/?ref=snap"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48b91ff5-fd97-44dc-9182-9870258cd7b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "12402012E212A"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58164b2f-e85d-48bf-b40e-2e7b7d1b41f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12292287&manufacturer=Amphenol FCI&part_name=12402012E212A&search_term=12402012e212a"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bf6e51e-8688-488e-b281-1c36fc6ffd73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4923267-f5a0-4b20-bb45-7c1c8f6b8622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Amphenol"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c1fc5f3-d0a0-43a9-a9c6-5a325d6c4ca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "12402012E212A"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37554f33-0a85-4051-b96e-f7b945ca2f54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Alimentazione e schema a blocchi/")
+	(sheetfile "alimentazione_e_schema_a_blocchi.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.47 -1.31)
+		(end -4.47 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5b81784-6f06-4273-b1f7-199e337a0603")
+	)
+	(fp_line
+		(start -4.47 4.1)
+		(end -4.47 2.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "215d80ee-7a17-45a2-8e70-5c154986977d")
+	)
+	(fp_line
+		(start 4.47 -1.31)
+		(end 4.47 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6096aa3c-2d37-4feb-b4d4-b38e860ef472")
+	)
+	(fp_line
+		(start 4.47 4.1)
+		(end -4.47 4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6683264-8976-43f6-91b5-398da32b0997")
+	)
+	(fp_line
+		(start 4.47 4.1)
+		(end 4.47 2.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6886c83-6830-4953-a8ab-a6118c0ef41c")
+	)
+	(fp_line
+		(start -5.095 -4.07)
+		(end -5.095 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4ae42f5-0795-4da5-9bb0-af0e956954f5")
+	)
+	(fp_line
+		(start -5.095 4.35)
+		(end 5.095 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "776e86a5-4f30-49e4-acf7-fe9324a5d2d7")
+	)
+	(fp_line
+		(start 5.095 -4.07)
+		(end -5.095 -4.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c714c01-664f-42e8-bb58-da16a19326a1")
+	)
+	(fp_line
+		(start 5.095 4.35)
+		(end 5.095 -4.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a503ad4a-47da-4300-937d-42244433b272")
+	)
+	(fp_line
+		(start -4.47 -3.25)
+		(end 4.47 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a7d147e-8bcd-47a2-86e0-eac8a00bf293")
+	)
+	(fp_line
+		(start -4.47 4.1)
+		(end -4.47 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "faa60159-32ff-4169-8f19-9e56a5f36b40")
+	)
+	(fp_line
+		(start 4.47 -3.25)
+		(end 4.47 4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "122618cf-bf31-4ff9-bc6a-803c405b243f")
+	)
+	(fp_line
+		(start 4.47 4.1)
+		(end -4.47 4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "365531b2-d4b4-4c81-8bc6-df6fd1f357fc")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.18)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "99d5ebbe-a611-4bc3-ac3f-9cc67e1aa4c7")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.18)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7acf2d3a-e01c-4122-af96-4f15654d765f")
+	)
+	(pad "A1_B12" smd rect
+		(at -3.2 -3.25)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "71452a83-f6e4-4805-bb78-3045539b3c74")
+	)
+	(pad "A4_B9" smd rect
+		(at -2.4 -3.25)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "808f15ef-b64e-4878-9adc-ff2a23f5684d")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8faa65cf-173b-4d58-887e-737b1069d33e")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8b811a73-959a-4af4-9d8e-dfad69df8baf")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ff0b10f3-dcc8-4b54-be5f-055d419a0703")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "508ecaf1-27b9-4466-a648-b8dee6ec376d")
+	)
+	(pad "B1_A12" smd rect
+		(at 3.2 -3.25)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "06971050-678e-42a0-8e64-9be8dd768aa7")
+	)
+	(pad "B4_A9" smd rect
+		(at 2.4 -3.25)
+		(size 0.6 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bf43dfd9-605c-4bf8-b82e-44098e4784a6")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "df681795-9571-423e-84fb-624e58a008bd")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c645ee36-4b9e-4b3d-a424-3f17ae6c9915")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dd50d28f-3e67-4229-afd6-f90e2cbcb202")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -3.25)
+		(size 0.3 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "af2ea13a-71f2-4177-842e-d74f4a4b3118")
+	)
+	(pad "SH1" thru_hole oval
+		(at -4.32 -2.68)
+		(size 1.05 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ae535ad2-aef1-41e6-8456-338185d112ff")
+	)
+	(pad "SH2" thru_hole oval
+		(at 4.32 -2.68)
+		(size 1.05 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "84c32c32-6f1c-4fb6-8c08-6885af01d3f7")
+	)
+	(pad "SH3" thru_hole oval
+		(at -4.32 1.5)
+		(size 0.9 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1c69b32f-fd04-4a7e-9fb6-12a7e86568cd")
+	)
+	(pad "SH4" thru_hole oval
+		(at 4.32 1.5)
+		(size 0.9 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7b84951c-74cb-4acb-954f-2f7748150776")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Admin/Documents/USB hub- mass storage_business card/progetto KiCad/librerie/12402012E212A.step"
+		(offset
+			(xyz 40 0.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)

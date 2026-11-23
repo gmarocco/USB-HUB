@@ -1,0 +1,267 @@
+(footprint "SOD2613X114N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOD323")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "REF**"
+		(at 2.8 -0.8 0)
+		(layer "F.SilkS")
+		(uuid "af42c86d-93bb-45a5-9cb7-a6fd8dcccd5a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "SP4020-01FTG-C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "088399ad-8dac-4eff-bbfe-8d1c0ff10f51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b815552-440c-4e94-933b-873f95ae04c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Littelfuse TVS Diode Array Bi-Directional, 750W Quad, 2-Pin SOD-323 SP4020-01FTG-C,"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1b0bd62-7dab-407e-a01d-4df89f1b6e93")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.14"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "024e9dbd-f564-4695-b350-621fc293b9cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-SP4020-01FTG-C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94198ee7-1f37-4363-9d65-8d89c9fb508a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP4020-01FTG-C?qs=eIdvKxokjW4gEhtVataOKg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eaa4e01-0664-4906-b097-06c7d7181515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33e2612e-e393-4950-a873-e7e236e96614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SP4020-01FTG-C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f358bc4-5b58-47c1-93a0-958eac49c62e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/CH349G/")
+	(sheetfile "ch349g.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.688 -0.65)
+		(end 0.875 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bed9712-fe6b-4dfa-9f98-3069c040d0cd")
+	)
+	(fp_line
+		(start -0.875 0.65)
+		(end 0.875 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31ade28c-9ead-4027-a109-41dd22ba0286")
+	)
+	(fp_line
+		(start -1.975 -1.2)
+		(end 1.975 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb4f32dc-cd89-415f-8354-b96324148a96")
+	)
+	(fp_line
+		(start -1.975 1.2)
+		(end -1.975 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "741e294a-c238-40f0-bdd9-6787cba38481")
+	)
+	(fp_line
+		(start 1.975 -1.2)
+		(end 1.975 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bc4a722-e86f-49e6-8d5f-898e49d27b83")
+	)
+	(fp_line
+		(start 1.975 1.2)
+		(end -1.975 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cd9861f-99b1-4824-a8bb-c4dcee9340c0")
+	)
+	(fp_line
+		(start -0.875 -0.65)
+		(end 0.875 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "138595ca-1c7f-4c7e-be3c-51a81f87c587")
+	)
+	(fp_line
+		(start -0.875 -0.112)
+		(end -0.338 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "754f4cef-b4c4-4443-8ea4-6f572ce9d1d3")
+	)
+	(fp_line
+		(start -0.875 0.65)
+		(end -0.875 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7169f0d-d5c4-4e31-90ce-2207cd8b3390")
+	)
+	(fp_line
+		(start 0.875 -0.65)
+		(end 0.875 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b63f0c6a-a55e-4196-9918-1662c5157ac4")
+	)
+	(fp_line
+		(start 0.875 0.65)
+		(end -0.875 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8de16356-7b81-468a-97d4-91b9554f9cbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0aec3acd-fe05-432d-927c-2078fbdd3d47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0 90)
+		(size 0.5 1.075)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a241e33-1c1a-49b5-b0ad-6cb21a1a2a18")
+	)
+	(pad "2" smd rect
+		(at 1.15 0 90)
+		(size 0.5 1.075)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08c3b646-4cc3-4bda-9924-5bcbbe5557ea")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Admin\\Documents\\KiCad\\library loader 10\\SamacSys_Parts.3dshapes\\SP4020-01FTG-C.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

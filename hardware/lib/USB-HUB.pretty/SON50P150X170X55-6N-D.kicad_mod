@@ -1,0 +1,282 @@
+(footprint "SON50P150X170X55-6N-D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "QFN 6L")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.7 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "aa2c370d-7edd-46b7-949f-eb409e69f759")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "ECMF02-2AMX6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "982a909a-3535-4743-906b-7154cd314f56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fef040b-38cb-4f7e-b532-e071511de9ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA uQFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e69359e3-48b2-4474-bb83-2113dd5aebea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.55"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5aac861-9991-4885-951d-9bbb40d5a9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "511-ECMF02-2AMX6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dbbb9a2-daf6-4c04-a6f2-8a4d84cb49f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ECMF02-2AMX6?qs=raAh8RbVwI65u5gmT42%2Flg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62b64f06-774e-43a1-8967-605dd8059cdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a2b0821-6bbc-469f-b128-ee3aafd9026c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ECMF02-2AMX6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19e30f1e-d70a-47c4-90cd-8eb2efbb4c66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/adattatori/")
+	(sheetfile "adattatori.kicad_sch")
+	(attr smd dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.125 -1.15)
+		(end -1.125 -1.025)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "99c88a3b-c67f-411e-802e-df8fcc8ea76c")
+	)
+	(fp_line
+		(start -1.375 -1.125)
+		(end 1.375 -1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbddfd1f-e05b-4e60-a76f-0156b495ceaf")
+	)
+	(fp_line
+		(start -1.375 1.125)
+		(end -1.375 -1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "930d1862-2ae5-41c7-a578-2c87d4b8fd6f")
+	)
+	(fp_line
+		(start 1.375 -1.125)
+		(end 1.375 1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93c69de8-1693-41c6-9e6a-b55c48e2b9c2")
+	)
+	(fp_line
+		(start 1.375 1.125)
+		(end -1.375 1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27d8885c-9e06-4a3b-b099-57c4a16db384")
+	)
+	(fp_line
+		(start -0.75 -0.85)
+		(end 0.75 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f30bec10-c959-4248-8f46-a2cab1d5a4a3")
+	)
+	(fp_line
+		(start -0.75 -0.475)
+		(end -0.375 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c48eaf7-149e-4046-a0c1-4e4f7b02a32a")
+	)
+	(fp_line
+		(start -0.75 0.85)
+		(end -0.75 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3136bf18-e18c-4b10-9156-b8e4a5fa3294")
+	)
+	(fp_line
+		(start 0.75 -0.85)
+		(end 0.75 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf1cb064-525a-43e7-8c1a-67cf1b735f3e")
+	)
+	(fp_line
+		(start 0.75 0.85)
+		(end -0.75 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "755a74e8-15dd-439b-b033-c47e28b01665")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ba5937ca-c516-483d-9f70-29321b698522")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.5 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c4b11e21-952d-430e-a512-b7ce919deb58")
+	)
+	(pad "2" smd rect
+		(at -0.7 0 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30d601a0-ccaa-40a6-8624-aac1983132f1")
+	)
+	(pad "3" smd rect
+		(at -0.7 0.5 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "058a9b59-3a11-4cec-9e5c-e4f11cdd14b4")
+	)
+	(pad "4" smd rect
+		(at 0.7 0.5 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42314ba6-1c0d-4726-847f-6bec79eb53fb")
+	)
+	(pad "5" smd rect
+		(at 0.7 0 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "967503ee-f566-409f-bffc-c08cdcacd887")
+	)
+	(pad "6" smd rect
+		(at 0.7 -0.5 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f5047ac-d902-428d-9d3d-ef83ce823120")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Admin\\Documents\\KiCad\\library loader 10\\SamacSys_Parts.3dshapes\\ECMF02-2AMX6.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
